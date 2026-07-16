@@ -1,0 +1,127 @@
+build-gen:
+  board: 
+  compiler: AC6
+  device: STM32F407IGTx
+  generated-by: uVision version 5.43.1.0
+  processor:
+    core: Cortex-M4
+    dsp: off
+    endian: little
+    fpu: sp
+  add-path:
+    - E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS
+    - E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/_code
+    - E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/_code/bsp
+    - E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/_code/device
+    - E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/_code/func
+    - E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/_code/lib
+    - E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/_code/sys
+  components:
+    - component: ARM::CMSIS:CORE@6.2.0
+      from-pack: ARM::CMSIS@6.3.0
+    - component: ARM::CMSIS:OS Tick:SysTick@1.0.5
+      from-pack: ARM::CMSIS@6.3.0
+      files:
+        - file: C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Source/os_systick.c
+          category: sourceC
+    - component: ARM::RTOS&FreeRTOS:Config&FreeRTOS@11.2.0
+      from-pack: ARM::CMSIS-FreeRTOS@11.2.0
+      files:
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/RTE/RTOS/FreeRTOSConfig.h
+          category: header
+    - component: ARM::RTOS&FreeRTOS:Core&Cortex-M@11.2.0
+      from-pack: ARM::CMSIS-FreeRTOS@11.2.0
+      files:
+        - file: C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c
+          category: sourceC
+        - file: C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/list.c
+          category: sourceC
+        - file: C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F/port.c
+          category: sourceC
+        - file: C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/queue.c
+          category: sourceC
+        - file: C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/tasks.c
+          category: sourceC
+    - component: ARM::RTOS&FreeRTOS:Event Groups@11.2.0
+      from-pack: ARM::CMSIS-FreeRTOS@11.2.0
+      files:
+        - file: C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/event_groups.c
+          category: sourceC
+    - component: ARM::RTOS&FreeRTOS:Heap&Heap_4@11.2.0
+      from-pack: ARM::CMSIS-FreeRTOS@11.2.0
+      files:
+        - file: C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/MemMang/heap_4.c
+          category: sourceC
+    - component: ARM::RTOS&FreeRTOS:Timers@11.2.0
+      from-pack: ARM::CMSIS-FreeRTOS@11.2.0
+      files:
+        - file: C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/timers.c
+          category: sourceC
+    - component: Keil::Device:CubeMX@1.0.0
+      from-pack: Keil::STM32F4xx_DFP@3.1.1
+  apis:
+    - api: CMSIS:OS Tick(API)@1.0.1
+      from-pack: ARM::CMSIS@6.3.0
+  groups:
+    - group: Source Group 1
+      files:
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/_code/user_main.c
+          category: sourceC
+    - group: :CubeMX:CubeMX
+      files:
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Src/main.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Src/gpio.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Src/dma.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Src/tim.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Src/usart.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Src/stm32f4xx_it.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Src/stm32f4xx_hal_msp.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/MDK-ARM/startup_stm32f407xx.s
+          category: sourceAsm
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Src/system_stm32f4xx.c
+          category: sourceC
+    - group: :CubeMX:STM32 HAL Driver
+      files:
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+          category: sourceC
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+          category: sourceC
+    - group: RTOS
+      files:
+        - file: E:/sources/modules/BLDC/BLDC_SQUAR_hall/stm32f407_freeRTOS/_code/func/task_drive.c
+          category: sourceC

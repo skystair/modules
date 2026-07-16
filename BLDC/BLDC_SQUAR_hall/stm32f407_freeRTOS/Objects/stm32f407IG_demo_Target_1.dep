@@ -1,0 +1,1018 @@
+Dependencies for Project 'stm32f407IG_demo', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (.\_code\user_main.c)(0x6A4E3F8D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/user_main.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\main.h)(0x6A4E3EDA)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\dma.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\tim.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\usart.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\gpio.h)(0x6A4E0C0B)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A4E0C0B)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\timers.h)(0x69281A80)
+I (_code\func\task_drive.h)(0x6A4E0C0B)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Src\main.c)(0x6A4E3F23)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/main_1.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\main.h)(0x6A4E3EDA)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\dma.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\tim.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\usart.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\gpio.h)(0x6A4E0C0B)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Src\gpio.c)(0x6A4E4288)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/gpio.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\gpio.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\main.h)(0x6A4E3EDA)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Src\dma.c)(0x6A4E0C0B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/dma.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\dma.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\main.h)(0x6A4E3EDA)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Src\tim.c)(0x6A4E0C0B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/tim.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\tim.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\main.h)(0x6A4E3EDA)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Src\usart.c)(0x6A4E0C0B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/usart.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\usart.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\main.h)(0x6A4E3EDA)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Src\stm32f4xx_it.c)(0x6A4E3F38)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_it.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\main.h)(0x6A4E3EDA)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_it.h)(0x6A4E0C0B)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Src\stm32f4xx_hal_msp.c)(0x6A4E0C0B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_msp.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\main.h)(0x6A4E3EDA)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\MDK-ARM\startup_stm32f407xx.s)(0x6A4E0C0B)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"STM32F407xx SETA 1" -Wa,armasm,--pd,"USE_HAL_DRIVER SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f407xx.o)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Src\system_stm32f4xx.c)(0x6A4E0C0B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/system_stm32f4xx.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_tim.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_tim_ex.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_rcc.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_rcc_ex.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_flash.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_flash_ex.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_flash_ramfunc.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c)(0x6A4E4455)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_gpio.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_dma_ex.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_dma.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_pwr.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_pwr_ex.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_cortex.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_exti.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c)(0x69607478)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/stm32f4xx_hal_uart.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (.\_code\func\task_drive.c)(0x6A4E0C0B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/task_drive.o -MMD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\main.h)(0x6A4E3EDA)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A4E0C0B)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\timers.h)(0x69281A80)
+F (.\_code\bsp\gpiox.c)(0x6A4E440D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/gpiox.o -MMD)
+I (_code\bsp\gpiox.h)(0x6A4E4418)
+F (.\_code\bsp\timerx.c)(0x6A4E4437)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/timerx.o -MMD)
+I (_code\bsp\timerx.h)(0x6A4E4454)
+F (C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Source/os_systick.c)(0x6A4CDEC6)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/os_systick.o -MMD)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\RTOS2\Include\os_tick.h)(0x6A4CDEC6)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+F (C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c)(0x69281A80)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/freertos_evr.o -MMD)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A4E0C0B)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x69281A80)
+F (C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/event_groups.c)(0x69281A80)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/event_groups.o -MMD)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x69281A80)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A4E0C0B)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\timers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\event_groups.h)(0x69281A80)
+F (C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/list.c)(0x69281A80)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/list.o -MMD)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x69281A80)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A4E0C0B)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x69281A80)
+F (C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F/port.c)(0x69281A80)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/port.o -MMD)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x69281A80)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A4E0C0B)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x69281A80)
+F (C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/MemMang/heap_4.c)(0x69281A80)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/heap_4.o -MMD)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x69281A80)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A4E0C0B)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x69281A80)
+F (C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/queue.c)(0x69281A81)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/queue.o -MMD)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x69281A80)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A4E0C0B)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x69281A80)
+F (C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/tasks.c)(0x69281A81)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/tasks.o -MMD)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x69281A80)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A4E0C0B)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\timers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\stack_macros.h)(0x69281A80)
+F (C:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/timers.c)(0x69281A81)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./_code -I ./_code/bsp -I ./_code/device -I ./_code/func -I ./_code/lib -I ./_code/sys-I./RTE/RTOS-I./RTE/_Target_1-I./STM32CubeMX/Target_1/MX_Device-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32F4xx/Include-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc-I./STM32CubeMX/Target_1/STM32CubeMX/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy-I./STM32CubeMX/Target_1/STM32CubeMX/Inc-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.2.0/Source/portable/GCC/ARM_CM4F-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/dhz/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include-D__UVISION_VERSION="543" -DSTM32F407xx -DUSE_HAL_DRIVER -D_RTE_-o ./objects/timers.o -MMD)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\FreeRTOS.h)(0x69281A80)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6A4E0C0B)
+I (RTE\_Target_1\RTE_Components.h)(0x6A4E3DAD)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm4.h)(0x6A4CDEC5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Inc\stm32f4xx_hal_conf.h)(0x6A4E0C0B)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x6A4E43C5)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x69607478)
+I (STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x69607478)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\projdefs.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\portable.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\deprecated_definitions.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\mpu_wrappers.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\task.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\list.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\queue.h)(0x69281A80)
+I (C:\Users\dhz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.2.0\Source\include\timers.h)(0x69281A80)
+F (RTE/RTOS/FreeRTOSConfig.h)(0x6A4E0C0B)()

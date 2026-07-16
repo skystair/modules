@@ -1,0 +1,49 @@
+#include "config.h"
+
+LedStruct LEDstr[LEDNUM];
+
+void LEDxTESTctrl(unsigned char flag){
+    if(flag){
+        s_boardBSP.IOout[IO_OUTch_Led] = 1;
+    }else{
+        s_boardBSP.IOout[IO_OUTch_Led] = 0;
+    }
+}
+//void LEDxRctrl(unsigned char flag){
+//    if(flag){
+//        ON_LED_R;
+//    }else{
+//        OFF_LED_R;
+//    }
+//}
+
+void LEDxinit(void){
+    memset(&LEDstr,0,LEDNUM*sizeof(LedStruct));
+    for(unsigned char i = 0; i< LEDNUM;i++){
+        LEDstr[i].Flashondelay = LED_FLASH_ONDELAY;
+        LEDstr[i].Flashoffdelay = LED_FLASH_OFFDELAY;
+    }
+    LEDstr[LED_CH_W].pfunc = &LEDxTESTctrl;
+//    LEDstr[LED_CH_R].pfunc = &LEDxRctrl;
+}
+
+void LEDxtick(void){
+    for(unsigned char i = 0; i< LEDNUM;i++){
+        LEDstr[i].Flashtick++;
+    }
+}
+
+void LEDxfunc(void){
+    for(unsigned char i = 0; i< LEDNUM;i++){
+        LED_statefunc(&LEDstr[i]);
+    }
+}
+
+void LEDxCtrl(unsigned char sel,unsigned char state,unsigned short halfT){
+    if(sel >= LEDNUM) return;
+    LEDstr[sel].state = state;
+    if(state == LED_STATE_FLASH){
+        LEDstr[sel].Flashondelay = halfT;
+        LEDstr[sel].Flashoffdelay = halfT;
+    }
+}
