@@ -48,9 +48,10 @@ void uartx_Rxclear(STRUart *Uartstruct){
 void Uart_TXIT_func(STRUart *Uartstruct){
     if(Uartstruct->TXing == 1){
         Uartstruct->Txtick = 0;
-        //等发送完成
+
         Uartstruct->fpWaitTxend();
         if(Uartstruct->TXp >= Uartstruct->TXlen){
+            //等发送完成
             Uartstruct->TXing = 0;
             Uartstruct->TXp = 0;
             //关tx
@@ -67,7 +68,7 @@ void Uart_TXIT_func(STRUart *Uartstruct){
 }
 void Uart_RXIT_func(STRUart *Uartstruct){
     if(Uartstruct->Rxcompflag) return;
-    
+
     if(Uartstruct->Rxp < Uartstruct->RxchkLen){//特定数据---------------------
         if(Uartstruct->Rxtmp == Uartstruct->CHKbuff[Uartstruct->Rxp]){
             Uartstruct->Rxbuff[Uartstruct->Rxp++] = Uartstruct->Rxtmp;
@@ -79,7 +80,7 @@ void Uart_RXIT_func(STRUart *Uartstruct){
     }else if(Uartstruct->Rxp < Uartstruct->RxLen){//无条件数据------------------
         Uartstruct->Rxbuff[Uartstruct->Rxp++] = Uartstruct->Rxtmp;
     }
-    
+
     if(Uartstruct->Rxp >= Uartstruct->RxLen){//超预计长度后完成----------------------
         Uartstruct->Rxcompflag = 1;
         Uartstruct->Rxp = 0;
@@ -87,7 +88,7 @@ void Uart_RXIT_func(STRUart *Uartstruct){
 }
 void Uart_RXIT_funcL(STRUart *Uartstruct,unsigned char pL){
     if(Uartstruct->Rxcompflag) return;
-    
+
     if(Uartstruct->Rxp < Uartstruct->RxchkLen){//特定数据---------------------
         if(Uartstruct->Rxtmp == Uartstruct->CHKbuff[Uartstruct->Rxp]){
             Uartstruct->Rxbuff[Uartstruct->Rxp++] = Uartstruct->Rxtmp;
@@ -111,7 +112,7 @@ void Uart_RXIT_funcL(STRUart *Uartstruct,unsigned char pL){
         }
         Uartstruct->Rxbuff[Uartstruct->Rxp++] = Uartstruct->Rxtmp;
     }
-    
+
     if(Uartstruct->Rxp >= Uartstruct->RxLen){//超预计长度后完成----------------------
         Uartstruct->Rxcompflag = 1;
         Uartstruct->Rxp = 0;
@@ -121,14 +122,14 @@ void Uart_RXIT_funcL(STRUart *Uartstruct,unsigned char pL){
 void adcx_Getvalue_func(ADCx_logicStruct* adclStr,ADCx_dataStruct* adcdStr){
     if(!adclStr->u8cmpflag) return;
     adclStr->u8cmpflag = 0;
-    
+
     if(!adclStr->u8first){
         adclStr->u8first = 1;
         //首次采样
         for(unsigned char i= 0;i < adclStr->ADnums;i++){
             adcdStr[i].avg = adcdStr[i].real;
             adcdStr[i].u32sum = adcdStr[i].real <<(adclStr->PWRtimes);
-            
+
             if(adcdStr[i].u32sum > adcdStr[i].real){
                 adcdStr[i].u32sum-= adcdStr[i].real;
             }else{
@@ -150,7 +151,7 @@ void keyShortPressCHK(keyStruct *keys){
     if(keys->flag){
         keys->flag = 0;
     }
-//    keys->Pressing = keys->pRfunc();
+    keys->Pressing = keys->pRfunc();
     if(keys->Pressing){
         if(keys->u16tick >= keys->Sdelay){
             if(keys->u16tick >= 0xff00){
@@ -176,7 +177,7 @@ void keyLongPressCHK(keyStruct *keys){
     if(keys->flag){
         keys->flag = 0;
     }
-//    keys->Pressing = keys->pRfunc();
+    keys->Pressing = keys->pRfunc();
     if(keys->Pressing){
         if(keys->u16tick >= keys->Ldelay){
             if(keys->u16tick >= 0xff00){
@@ -195,7 +196,7 @@ void keyLongPressCHK(keyStruct *keys){
         }else if(keys->u16tick < keys->Ldelay){
             keys->flag = KEY_FALG_SHORT;
         }
-        
+
         keys->keep = 0;
         keys->u16tick = 0;
         if(keys->u16Rtick >= 0xff00){
@@ -234,27 +235,27 @@ unsigned int keyValread(keyStruct* keyx,unsigned char valnum){
 void LED_statefunc(LedStruct* LEDstr){
     switch(LEDstr->state){
         case LED_STATE_OFF:
-            *LEDstr->onflag = 0;
+            LEDstr->onflag = 0;
             LEDstr->Flashtick = 0;
             break;
         case LED_STATE_ON:
-           *LEDstr->onflag = 1;
+           LEDstr->onflag = 1;
             LEDstr->Flashtick = LEDstr->Flashondelay;
             break;
         case LED_STATE_FLASH:
             if(LEDstr->Flashtick < LEDstr->Flashondelay){
-                *LEDstr->onflag = 1;
+                LEDstr->onflag = 1;
             }else if(LEDstr->Flashtick < (LEDstr->Flashondelay + LEDstr->Flashoffdelay)){
-                *LEDstr->onflag = 0;
+                LEDstr->onflag = 0;
             }else{
                 LEDstr->Flashtick = 0;
             }
             break;
         default:
-            *LEDstr->onflag = 0;
+            LEDstr->onflag = 0;
             break;
     }
-//    LEDstr->pfunc(LEDstr->onflag);
+    LEDstr->pfunc(LEDstr->onflag);
 }
 
 //4.xxxFunc==========================================================
@@ -293,4 +294,3 @@ void valJandRcoverfunc(unsigned char tf1,unsigned char tf2,unsigned short* tick,
         *tick = 0;
     }
 }
-

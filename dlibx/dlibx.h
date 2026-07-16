@@ -1,42 +1,31 @@
-/**
- ******************************************************************************
- * @file    dlibx.h
- * @brief   驱动库功能头文件
- * @details 本文件定义通用的驱动层数据结构及工具函数
- *          - UART 通信结构体（发送/接收缓冲区、状态标志）
- *          - 校验和计算函数
- *          - 通用数据处理工具
- *          - 设备状态管理结构
- ******************************************************************************
- */
-
-#ifndef __dlibx_h__ 
-#define __dlibx_h__ 
+#ifndef __dlibx_h__
+#define __dlibx_h__
 
 //#include "dlibxConf.h"
 
 unsigned int GetSUM(unsigned char* str,unsigned char p1,unsigned char p2);
+unsigned int CalSUM_unsign(const void* addrST,unsigned char elem_size,unsigned int length);
+int CalSUM_sign(const void* addrST,unsigned char elem_size,unsigned int length);
 //0.uartxFunc==========================================================
-typedef struct{    
+typedef struct{
     unsigned char TXing;
     unsigned char TXcmp;
     unsigned char* Txbuff;
     unsigned short int TXp;
     unsigned short int TXlen;
     unsigned short int Txtick;//tx on
-    
+
     unsigned char Rxtmp;
     unsigned char Rxcompflag;
-    unsigned char* CHKbuff;
+    unsigned char RxDlenPos;
+    unsigned char RxDlenplus;
+    const unsigned char* CHKbuff;
 //    unsigned char* CHKpos;
     unsigned char* Rxbuff;
     unsigned short int Rxp;
     unsigned short int RxLen;
     unsigned short int RxchkLen;
     unsigned short int Rxtick;
-    
-    unsigned char RxDlenPos;    //不定长接收相关,长度存放位置
-    unsigned char RxDlenplus;   //不定长接收相关,补充长度
 
     unsigned char RenAfterTx;
     unsigned char       Errorflag;
@@ -46,7 +35,7 @@ typedef struct{
     void (*fpWaitTxend)(void);
     void (*fpTxINT_ENctrl)(unsigned char en);
     void (*fpRxen_ENctrl)(unsigned char en);
-    
+
     void (*fpTXdataSet)(void);
     void (*fpRXdataGet)(void);
 }STRUart;
@@ -61,11 +50,11 @@ typedef struct{
     unsigned char ADnums;       //AD通道数
     unsigned char u8first;      //首次采样
     unsigned char u8cmpflag;    //完成采样
-    
+
     unsigned char PWRtimes;     //2的n次方个数求和,
 }ADCx_logicStruct;
 typedef struct{
-    
+
     unsigned short avg;
     unsigned short real;
     unsigned int u32sum;//求和窗口
@@ -91,11 +80,11 @@ typedef struct {
     unsigned char keep 		;
     unsigned short u16tick;
     unsigned short u16Rtick;
-    
+
     unsigned short Sdelay;
     unsigned short Ldelay;
-    
-//    unsigned char(*pRfunc)(void);
+
+    unsigned char(*pRfunc)(void);
 }keyStruct;
 
 
@@ -112,15 +101,15 @@ unsigned int keyValread(keyStruct* keyx,unsigned char valnum);
 //#define LED_STATE_breath    3
 
 typedef struct{
-    unsigned char* onflag;
-    
+    unsigned char onflag;
+
     unsigned char state;
-    
+
     unsigned short Flashtick;
     unsigned short Flashondelay;
     unsigned short Flashoffdelay;
-    
-//    void(*pfunc)(unsigned char flag);
+
+    void(*pfunc)(unsigned char flag);
 }LedStruct;
 void LED_statefunc(LedStruct* LEDstr);
 //pwm
@@ -134,5 +123,8 @@ void valjudgefunc(unsigned char tf,unsigned short* tick,unsigned short delay,uns
 void valjudgeNcoverfunc(unsigned char tf,unsigned short* tick,unsigned short delay,unsigned char* flag);
 void valJandRcoverfunc(unsigned char tf1,unsigned char tf2,unsigned short* tick,unsigned short delay,unsigned char* flag);
 
-#endif
 
+
+/*==================== 433模块实例 ====================*/
+extern STRUart uart433;
+#endif
