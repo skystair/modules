@@ -8,34 +8,37 @@ unsigned int CalSUM_unsign(const void* addrST,unsigned char elem_size,unsigned i
 int CalSUM_sign(const void* addrST,unsigned char elem_size,unsigned int length);
 //0.uartxFunc==========================================================
 typedef struct{
+    // 状态与标志位
     unsigned char TXing;
     unsigned char TXcmp;
-    unsigned char* Txbuff;
-    unsigned short int TXp;
-    unsigned short int TXlen;
-    unsigned short int Txtick;//tx on
-
     unsigned char Rxtmp;
     unsigned char Rxcompflag;
     unsigned char RxDlenPos;
     unsigned char RxDlenplus;
-    const unsigned char* CHKbuff;
-//    unsigned char* CHKpos;
-    unsigned char* Rxbuff;
+    unsigned char RenAfterTx;
+    unsigned char Errorflag;
+
+    // 发送/接收计数与定时
+    unsigned short int TXp;
+    unsigned short int TXlen;
+    unsigned short int Txtick;
     unsigned short int Rxp;
     unsigned short int RxLen;
     unsigned short int RxchkLen;
     unsigned short int Rxtick;
+    unsigned short int u16Errortick;
 
-    unsigned char RenAfterTx;
-    unsigned char       Errorflag;
-    unsigned short int  u16Errortick;
-    //funcp
+    // 缓冲区
+    unsigned char* Txbuff;
+    unsigned char* Rxbuff;
+    const unsigned char* CHKbuff;
+//    unsigned char* CHKpos;
+
+    // 回调函数
     void (*fpTxbyte)(unsigned char data);
     void (*fpWaitTxend)(void);
     void (*fpTxINT_ENctrl)(unsigned char en);
     void (*fpRxen_ENctrl)(unsigned char en);
-
     void (*fpTXdataSet)(void);
     void (*fpRXdataGet)(void);
 }STRUart;
@@ -126,5 +129,5 @@ void valJandRcoverfunc(unsigned char tf1,unsigned char tf2,unsigned short* tick,
 
 
 /*==================== 433模块实例 ====================*/
-extern STRUart uart433;
+// extern STRUart uart433;
 #endif
