@@ -14,7 +14,7 @@
 #define LED_CH_W            0
 #define LED_CH_R            1
 
-#include "dlibx.h"
+#include "dlibxConf.h"
 //#include "boardIO.h"
 #include "dlibx_led.h"
 #include <string.h>

@@ -16,8 +16,7 @@
  *     RX帧头顺序: RX_H1, RX_H2, RX_H3（与TX不同，用于区分对端）
  ******************************************************************************
  */
-
-#include "dlibx.h"
+#include "dlibxConf.h"
 #include "dlibx_uart.h"
 #include <string.h>
 
@@ -40,44 +39,13 @@ static unsigned char uart_exp1_rxBuf[DLIBX_UART_MAX_DATA_LEN + 1 + 1 + 3];
 static unsigned char uart_exp1_rxData[DLIBX_UART_MAX_DATA_LEN];
 
 /*==================== TX/RX 数据处理回调 ====================*/
-static void dlibx_uart_txDataSet(STRUart* uart) {
-    const dlibx_uart_cfg_t* cfg = (uart != 0) ? uart->cfg : 0;
-    unsigned char index;
-    unsigned char txHeaderLen = (cfg != 0) ? cfg->txHeaderLen : 0;
-    unsigned char txDataLen = (cfg != 0) ? cfg->txLenInit : 0;
-
-    /* 组装帧：[TX_H1] [TX_H2] ... [LEN] [DATA...] [CHK] */
-    uart->TXlen = (unsigned short)(txHeaderLen + 1 + txDataLen + 1);
-    for (index = 0; index < txHeaderLen; ++index) {
-        uart->Txbuff[index] = cfg->txHeader[index];
-    }
-    uart->Txbuff[txHeaderLen] = txDataLen;
+/* default no-arg callbacks left intentionally empty; users may provide per-instance no-arg wrappers if needed */
+static void dlibx_uart_txDataSet(void) {
+    /* no-op default */
 }
 
-static void dlibx_uart_rxGet(STRUart* uart) {
-    const dlibx_uart_cfg_t* cfg = (uart != 0) ? uart->cfg : 0;
-    unsigned char dataLen;
-    unsigned char rxHeaderLen = (unsigned char)uart->RxchkLen;
-
-    /* 提取接收数据到实例的 rxData 缓冲区 */
-    dataLen = (unsigned char)(uart->RxLen - uart->RxDlenplus);
-    if (dataLen > DLIBX_UART_MAX_DATA_LEN) {
-        dataLen = DLIBX_UART_MAX_DATA_LEN;
-    }
-
-    if (dataLen > 0) {
-        if (uart->rxData) {
-            unsigned char copyLen = dataLen;
-            if (cfg && copyLen > uart->rxDataMaxLen) copyLen = uart->rxDataMaxLen;
-            memcpy(uart->rxData, &uart->Rxbuff[rxHeaderLen + 1], copyLen);
-            uart->rxDataLen = copyLen;
-        }
-    } else {
-        if (uart->rxData) {
-            memset(uart->rxData, 0, uart->rxDataMaxLen);
-            uart->rxDataLen = 0;
-        }
-    }
+static void dlibx_uart_rxGet(void) {
+    /* no-op default */
 }
 /*==================== 模块实例（cfg 存放静态配置，实例在声明处只绑定 cfg 指针） ====================*/
 static const dlibx_uart_cfg_t uart_exp1_cfg = {
@@ -132,8 +100,21 @@ void dlibx_uart_TXfunc(STRUart* uart) {
     }
 
     uart->Txtick = 0;
-    if (uart->fpTXdataSet) uart->fpTXdataSet(uart);  /* 用户可在此回调中修改 txBuf 内容 */
 
+    /* 组装帧（将 dlibx_uart_txDataSet_instance 的逻辑内联到此处，避免冗余） */
+    {
+        const dlibx_uart_cfg_t* cfg = uart->cfg ? uart->cfg : &uart_exp1_cfg;
+        unsigned char txHeaderLen = cfg ? cfg->txHeaderLen : 0;
+        unsigned char txDataLen = cfg ? cfg->txLenInit : 0;
+        unsigned char index;
+
+        uart->TXlen = (unsigned short)(txHeaderLen + 1 + txDataLen + 1);
+        for (index = 0; index < txHeaderLen; ++index) {
+            uart->Txbuff[index] = cfg->txHeader[index];
+        }
+        uart->Txbuff[txHeaderLen] = txDataLen;
+    }
+    if (uart->fpTXdataSet) uart->fpTXdataSet();
     checksum = (unsigned char)CalSUM_unsign(uart->Txbuff, sizeof(unsigned char), uart->TXlen - 2);
     uart->Txbuff[uart->TXlen - 1] = checksum;
 
@@ -155,8 +136,26 @@ void dlibx_uart_RXfunc(STRUart* uart) {
         uart->Rxcompflag = 0;
         checkSum = (unsigned char)CalSUM_unsign(uart->Rxbuff, sizeof(unsigned char), uart->RxLen - 2);
         if (checkSum == uart->Rxbuff[uart->RxLen - 1]) {
-            /* 校验成功，处理数据 */
-            if (uart->fpRXdataGet) uart->fpRXdataGet(uart);
+            /* 校验成功，处理数据：将 dlibx_uart_rxGet_instance 的逻辑内联到此处 */
+            {
+                unsigned char dataLen = (unsigned char)(uart->RxLen - uart->RxDlenplus);
+                if (dataLen > DLIBX_UART_MAX_DATA_LEN) dataLen = DLIBX_UART_MAX_DATA_LEN;
+
+                if (dataLen > 0) {
+                    if (uart->rxData) {
+                        unsigned char copyLen = dataLen;
+                        if (copyLen > uart->rxDataMaxLen) copyLen = uart->rxDataMaxLen;
+                        memcpy(uart->rxData, &uart->Rxbuff[uart->RxchkLen + 1], copyLen);
+                        uart->rxDataLen = copyLen;
+                    }
+                } else {
+                    if (uart->rxData) {
+                        memset(uart->rxData, 0, uart->rxDataMaxLen);
+                        uart->rxDataLen = 0;
+                    }
+                }
+            }
+            if (uart->fpRXdataGet) uart->fpRXdataGet();
         } else {
             /* 校验失败，丢弃数据 */
         }

@@ -35,9 +35,9 @@ typedef struct {
     void (*fpTxINT_ENctrl)(unsigned char en);
     void (*fpRxEnCtrl)(unsigned char en);
 
-    /* 数据组装/提取回调（建议放在 cfg 中以实现每实例不同协议处理/扩展） */
-    void (*fpTXdataSet)(struct STRUart* uart);
-    void (*fpRXdataGet)(struct STRUart* uart);
+    /* 数据组装/提取回调（无参，由用户实现根据具体实例自行访问对应实例/缓冲） */
+    void (*fpTXdataSet)(void);
+    void (*fpRXdataGet)(void);
 } dlibx_uart_cfg_t;
 
 typedef struct STRUart{
@@ -79,8 +79,8 @@ typedef struct STRUart{
     void (*fpWaitTxend)(void);
     void (*fpTxINT_ENctrl)(unsigned char en);
     void (*fpRxen_ENctrl)(unsigned char en);
-    void (*fpTXdataSet)(struct STRUart* uart);
-    void (*fpRXdataGet)(struct STRUart* uart);
+    void (*fpTXdataSet)(void);
+    void (*fpRXdataGet)(void);
 }STRUart;
 #define Uart_RXIT_RXL_MAX   100
 void Uart_RXIT_funcL(STRUart *Uartstruct,unsigned char pL);//变长接收,限定100

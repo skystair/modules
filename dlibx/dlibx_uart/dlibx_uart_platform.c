@@ -21,7 +21,7 @@
  */
 
 #include "dlibx_uart.h"
-#include "dlibx.h"
+#include "dlibxConf.h"
 
 /* MCU 头文件（按需取消注释，替换为实际平台库） */
 // #include "stm32f10x.h"

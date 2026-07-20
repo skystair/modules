@@ -8,16 +8,10 @@
  *   - 使用前需在 boardIO.h 中定义按键通道相关宏
  */
 
-#include "dlibx.h"
+#include "dlibxConf.h"
 //#include "boardIO.h"
 #include "dlibx_key.h"
 #include <string.h>
-
-#define keyNUM              1
-#define KEY_CH_test         0
-#define KEY_CH_trig         0
-#define KEYshortTIM         50
-#define KEYlongTIM          1500
 
 keyStruct dlibx_keystr[keyNUM];
 
