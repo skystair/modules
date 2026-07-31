@@ -6,11 +6,15 @@ void main_init(void){
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3,ENABLE);
 
     Board_Init();
+    USB_CDC_Init();
+    UART1_Passthrough_Init();
+    
     tick_init();
     key_init();
     LEDxinit();
-
+    
     modefunc_init();
+    
 }
 
 int main(void){
@@ -18,7 +22,7 @@ int main(void){
 
     osKernelInitialize();
 
-    USB_HID_Init();
+    
 
     task_mode_creat();
     task_com1_creat();

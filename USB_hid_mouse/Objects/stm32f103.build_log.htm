@@ -22,14 +22,56 @@ Dialog DLL:      TCM.DLL V1.56.6.0
  
 <h2>Project:</h2>
 E:\sources\modules\USB_hid\stm32f103.uvprojx
-Project File Date:  07/31/2026
+Project File Date:  07/30/2026
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.24', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
-Build target 'Target 1'
+Rebuild target 'Target 1'
+compiling timerx.c...
+compiling boarddef.c...
+compiling task_mode.c...
+compiling dlibx.c...
+compiling key.c...
+compiling led.c...
+compiling task_com1.c...
+compiling rtx_delay.c...
+compiling GPIO_STM32F10x.c...
+compiling rtx_evr.c...
+compiling USBD_STM32F10x.c...
+compiling modefunc.c...
+compiling rtx_evflags.c...
 compiling main.c...
+compiling usb_hid_mouse.c...
+compiling rtx_lib.c...
+compiling rtx_kernel.c...
+compiling rtx_memory.c...
+compiling rtx_mempool.c...
+compiling rtx_msgqueue.c...
+compiling rtx_mutex.c...
+compiling rtx_semaphore.c...
+assembling irq_armv7m.S...
+compiling rtx_system.c...
+compiling RTX_Config.c...
+compiling os_systick.c...
+compiling rtx_timer.c...
+compiling misc.c...
+compiling stm32f10x_fsmc.c...
+compiling rtx_thread.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling system_stm32f10x.c...
+compiling usb_lib_ver.c...
+compiling usbd_debug.c...
+compiling usbd_config.c...
+compiling usbd_lib_core_device.c...
+compiling usbd_lib_core_hid.c...
+compiling usbd_lib_core.c...
+assembling startup_stm32f10x_md.s...
+compiling usbd_lib_drv.c...
+compiling usbd_lib_hid.c...
 linking...
-Program Size: Code=25272 RO-data=1324 RW-data=256 ZI-data=12784  
+Program Size: Code=23828 RO-data=1232 RW-data=256 ZI-data=8880  
 FromELF: creating hex file...
 ".\Objects\stm32f103.axf" - 0 Error(s), 0 Warning(s).
 
@@ -58,7 +100,7 @@ Package Vendor: Keil
                 Keil::MDK-Middleware@8.3.0
                 Middleware for Arm based processors
    * Component: CORE Version: 8.0.2
-   * Component: CDC Version: 8.0.2
+   * Component: HID Version: 8.0.2
    * Component: Device Version: 8.0.2
 
 Package Vendor: Keil
@@ -96,32 +138,32 @@ Package Vendor: Keil
       Source file:   CMSIS/RTOS2/Source/os_systick.c
 
    * Component: ARM::CMSIS:RTOS2:Keil RTX5&Source@5.9.1
+      Source file:   Source/rtx_delay.c
+      Source file:   Template/MemPool.c
+      Source file:   Template/MsgQueue.c
+      Source file:   Template/Mutex.c
+      Include file:  Include/rtx_os.h
+      Source file:   Source/rtx_kernel.c
+      Source file:   Template/main.c
+      Source file:   Template/svc_user.c
+      Source file:   Source/rtx_thread.c
+      Source file:   Source/rtx_timer.c
+      Source file:   Config/RTX_Config.c
+      Source file:   Source/rtx_mutex.c
+      Source file:   Source/rtx_evflags.c
+      Source file:   Source/rtx_memory.c
+      Source file:   Template/Thread.c
       Source file:   Source/rtx_semaphore.c
       Source file:   Source/rtx_mempool.c
-      Source file:   Template/MsgQueue.c
-      Source file:   Source/rtx_msgqueue.c
-      Source file:   Source/rtx_system.c
-      Source file:   Source/rtx_evr.c
-      Source file:   Template/svc_user.c
-      Source file:   Config/RTX_Config.c
-      Source file:   Source/rtx_memory.c
-      Source file:   Template/Timer.c
-      Include file:  Include/rtx_os.h
-      Source file:   Template/Thread.c
-      Source file:   Template/MemPool.c
-      Source file:   Source/rtx_timer.c
-      Include file:  Config/RTX_Config.h
-      Source file:   Template/Semaphore.c
-      Source file:   Source/rtx_kernel.c
       Source file:   Template/Events.c
-      Source file:   Template/main.c
-      Source file:   Template/Mutex.c
-      Source file:   Source/rtx_delay.c
-      Source file:   Source/rtx_thread.c
-      Source file:   Source/rtx_evflags.c
-      Source file:   Source/rtx_mutex.c
+      Source file:   Source/rtx_msgqueue.c
+      Include file:  Config/RTX_Config.h
+      Source file:   Template/Timer.c
+      Source file:   Template/Semaphore.c
       Source file:   Source/rtx_lib.c
       Source file:   Source/GCC/irq_armv7m.S
+      Source file:   Source/rtx_system.c
+      Source file:   Source/rtx_evr.c
 
    * Component: CMSIS Driver:GPIO(API)@1.0.0
       Include file:  CMSIS/Driver/Include/Driver_GPIO.h
@@ -140,21 +182,21 @@ Package Vendor: Keil
       Source file:   Drivers/USBD_STM32.c
 
    * Component: Keil::Device:Startup@1.0.0
-      Include file:  RTE_Driver/Config/RTE_Device.h
       Source file:   Device/Source/ARM/startup_stm32f10x_md.s
       Source file:   Device/Source/system_stm32f10x.c
       Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Include file:  RTE_Driver/Config/RTE_Device.h
 
    * Component: Keil::Device:StdPeriph Drivers:FSMC@3.6.0
-      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_fsmc.h
       Source file:   Device/StdPeriph_Driver/src/stm32f10x_fsmc.c
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_fsmc.h
 
    * Component: Keil::Device:StdPeriph Drivers:Framework@3.6.0
-      Include file:  Device/StdPeriph_Driver/inc/misc.h
-      Source file:   Device/StdPeriph_Driver/src/misc.c
-      Include file:  Device/StdPeriph_Driver/templates/stm32f10x_it.h
       Source file:   Device/StdPeriph_Driver/templates/stm32f10x_conf.h
       Source file:   Device/StdPeriph_Driver/templates/stm32f10x_it.c
+      Include file:  Device/StdPeriph_Driver/templates/stm32f10x_it.h
+      Include file:  Device/StdPeriph_Driver/inc/misc.h
+      Source file:   Device/StdPeriph_Driver/src/misc.c
 
    * Component: Keil::Device:StdPeriph Drivers:GPIO@3.6.0
       Include file:  Device/StdPeriph_Driver/inc/stm32f10x_gpio.h
@@ -173,27 +215,23 @@ Package Vendor: Keil
       Include file:  Components/USB/Config/USB_Debug.h
       Source file:   Components/USB/Source/usb_lib_ver.c
 
-   * Component: Keil::USB&MDK:Device:CDC@8.0.2
-      Source file:   Components/USB/Template/USBD_User_CDC_ACM_RNDIS_ETH.c
-      Source file:   Components/USB/Source/usbd_lib_core_cdc.c
-      Source file:   Components/USB/Template/USBD_User_CDC_ACM_UART.c
-      Include file:  Components/USB/Config/USBD_Config_CDC.h
-      Source file:   Components/USB/Source/usbd_lib_cdc.c
-      Source file:   Components/USB/Template/USBD_User_CDC_ACM_RNDIS_VETH.c
-      Source file:   Components/USB/Template/USBD_User_CDC_ACM.c
-      Source file:   Components/USB/Template/USBD_User_CDC_NCM.c
-      Source file:   Components/USB/Template/USBD_User_CDC_NCM_ETH.c
+   * Component: Keil::USB&MDK:Device:HID@8.0.2
+      Include file:  Components/USB/Config/USBD_Config_HID.h
+      Source file:   Components/USB/Template/USBD_User_HID_Mouse.c
+      Source file:   Components/USB/Source/usbd_lib_core_hid.c
+      Source file:   Components/USB/Template/USBD_User_HID.c
+      Source file:   Components/USB/Source/usbd_lib_hid.c
 
    * Component: Keil::USB&MDK:Device@8.0.2
-      Include file:  Components/USB/Config/USBD_Config.h
-      Source file:   Components/USB/Template/USBD_User_Device_SerNum.c
       Source file:   Components/USB/Template/USBD_User_Device.c
-      Source file:   Components/USB/Source/usbd_config.c
-      Source file:   Components/USB/Source/usbd_lib_drv.c
-      Source file:   Components/USB/Source/usbd_lib_core_device.c
+      Source file:   Components/USB/Template/USBD_User_Device_SerNum.c
       Source file:   Components/USB/Source/usbd_debug.c
+      Source file:   Components/USB/Source/usbd_config.c
       Source file:   Components/USB/Source/usbd_lib_core.c
-Build Time Elapsed:  00:00:02
+      Source file:   Components/USB/Source/usbd_lib_drv.c
+      Include file:  Components/USB/Config/USBD_Config.h
+      Source file:   Components/USB/Source/usbd_lib_core_device.c
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>

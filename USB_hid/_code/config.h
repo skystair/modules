@@ -17,7 +17,8 @@
 #include "key.h"
 #include "led.h"
 
-#include "usb_hid_mouse.h"
+#include "usb_cdc_app.h"
+#include "uart1_passthrough.h"
 
 //FUNCTION
 #include "dlibx.h"

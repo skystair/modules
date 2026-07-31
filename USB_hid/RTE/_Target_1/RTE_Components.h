@@ -31,8 +31,8 @@
 #define RTE_DEVICE_STDPERIPH_TIM
 /* Keil::USB&MDK:CORE@8.0.2 */
 #define RTE_USB_Core                    /* USB Core */
-/* Keil::USB&MDK:Device:HID@8.0.2 */
-#define RTE_USB_Device_HID_0            /* USB Device HID instance 0 */
+/* Keil::USB&MDK:Device:CDC@8.0.2 */
+#define RTE_USB_Device_CDC_0            /* USB Device CDC instance 0 */
 
 /* Keil::USB&MDK:Device@8.0.2 */
 #define RTE_USB_Device_0                /* USB Device 0 */

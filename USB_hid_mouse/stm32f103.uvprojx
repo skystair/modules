@@ -465,14 +465,9 @@
           <GroupName>usb</GroupName>
           <Files>
             <File>
-              <FileName>usb_cdc.c</FileName>
+              <FileName>usb_hid_mouse.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\_code\usb\usb_cdc.c</FilePath>
-            </File>
-            <File>
-              <FileName>uart1_passthrough.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\_code\bsp\uart1_passthrough.c</FilePath>
+              <FilePath>.\_code\usb\usb_hid_mouse.c</FilePath>
             </File>
             <File>
               <FileName>USBD_STM32F10x.c</FileName>
@@ -602,7 +597,7 @@
           <targetInfo name="Target 1"/>
         </targetInfos>
       </component>
-      <component Cbundle="MDK" Cclass="USB" Cgroup="Device" Csub="CDC" Cvendor="Keil" Cversion="8.0.2" condition="USB Core and Device Instance and Device Driver" maxInstances="8" ymlID="USB&amp;MDK:Device:CDC">
+      <component Cbundle="MDK" Cclass="USB" Cgroup="Device" Csub="HID" Cvendor="Keil" Cversion="8.0.2" condition="USB Core and Device Instance and Device Driver" maxInstances="8" ymlID="USB&amp;MDK:Device:HID">
         <package name="MDK-Middleware" schemaVersion="1.7.45" url="https://www.keil.com/pack/" vendor="Keil" version="8.3.0"/>
         <targetInfos>
           <targetInfo name="Target 1"/>
@@ -678,9 +673,9 @@
           <targetInfo name="Target 1"/>
         </targetInfos>
       </file>
-      <file attr="config" category="header" name="Components\USB\Config\USBD_Config_CDC.h" version="5.3.1">
-        <instance index="0">RTE\USB\USBD_Config_CDC_0.h</instance>
-        <component Cbundle="MDK" Cclass="USB" Cgroup="Device" Csub="CDC" Cvendor="Keil" Cversion="8.0.2" condition="USB Core and Device Instance and Device Driver" maxInstances="8"/>
+      <file attr="config" category="header" name="Components\USB\Config\USBD_Config_HID.h" version="5.1.1">
+        <instance index="0">RTE\USB\USBD_Config_HID_0.h</instance>
+        <component Cbundle="MDK" Cclass="USB" Cgroup="Device" Csub="HID" Cvendor="Keil" Cversion="8.0.2" condition="USB Core and Device Instance and Device Driver" maxInstances="8"/>
         <package name="MDK-Middleware" schemaVersion="1.7.45" url="https://www.keil.com/pack/" vendor="Keil" version="8.3.0"/>
         <targetInfos>
           <targetInfo name="Target 1"/>

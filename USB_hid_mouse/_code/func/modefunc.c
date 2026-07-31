@@ -38,24 +38,10 @@ static void modefunc_Pubfunc(void){
     }
 }
 
-/* USB CDC ↔ UART1 双向透传缓冲区 */
-static uint8_t cdc_rx_tmp[64];
-static uint8_t uart_rx_tmp[64];
-
 static void modefunc_Lastfunc(void){
-    int len;
-    /* USB CDC → UART1：PC 串口助手发来的数据转发到 PA9/PA10 */
-    len = USB_CDC_Receive(cdc_rx_tmp, sizeof(cdc_rx_tmp));
-    if (len > 0) {
-        UART1_Passthrough_Send(cdc_rx_tmp, (uint32_t)len);
-    }
-    /* UART1 → USB CDC：PA9/PA10 收到的数据转发到 PC 串口助手 */
-    len = (int)UART1_Passthrough_RxCount();
-    if (len > 0) {
-        if (len > (int)sizeof(uart_rx_tmp)) len = (int)sizeof(uart_rx_tmp);
-        UART1_Passthrough_Receive(uart_rx_tmp, (uint32_t)len);
-        USB_CDC_Send(uart_rx_tmp, (uint32_t)len);
-    }
+    unsigned char left_pressing = keyXvalread(KEY_CH_trig, KEY_VAL_PRESS);
+    unsigned char right_pressing = keyXvalread(KEY_CH_wakeup, KEY_VAL_PRESS);
+    USB_HID_Mouse_Func(left_pressing, right_pressing);
 }
 
 /* ====================== 各状态处理函数 ====================== */
