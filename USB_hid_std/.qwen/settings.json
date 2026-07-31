@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(C:\\Users\\dhz\\AppData\\Local\\Arm\\Packs\\Keil\\MDK-Middleware\\8.3.0\\Components\\USB\\Include/**)",
+      "Read(C:\\Users\\dhz\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS-Driver_STM32\\1.4.0\\Drivers/**)",
+      "Read(C:\\Users\\dhz\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS-Driver_STM32\\1.4.0\\Drivers\\USBD_STM32.c/**)",
+      "Read(C:\\Users\\dhz\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\6.3.0\\CMSIS\\Driver\\Include/**)"
+    ]
+  },
+  "$version": 4
+}
