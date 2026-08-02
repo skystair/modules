@@ -125,6 +125,20 @@ uint32_t UART1_Passthrough_Receive(uint8_t *buf, uint32_t max_len) {
     return count;
 }
 
+uint32_t UART1_Passthrough_Peek(uint8_t *buf, uint32_t max_len) {
+    uint32_t count = 0U;
+    uint32_t pos = rx_tail;
+    while (count < max_len && pos != rx_head) {
+        buf[count++] = rx_buf[pos];
+        pos = (pos + 1U) & RX_BUF_MASK;
+    }
+    return count;
+}
+
+void UART1_Passthrough_Discard(uint32_t count) {
+    rx_tail = (rx_tail + count) & RX_BUF_MASK;
+}
+
 /*==========================================================================
  * USART1 中断服务函数
  *==========================================================================*/

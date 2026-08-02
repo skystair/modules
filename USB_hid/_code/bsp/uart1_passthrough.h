@@ -18,4 +18,10 @@ uint32_t UART1_Passthrough_RxCount(void);
 /* 从 UART1 接收缓冲区读取数据，返回实际读取字节数 */
 uint32_t UART1_Passthrough_Receive(uint8_t *buf, uint32_t max_len);
 
+/* 从 UART1 接收缓冲区窥视数据（不消费），返回实际窥视字节数 */
+uint32_t UART1_Passthrough_Peek(uint8_t *buf, uint32_t max_len);
+
+/* 丢弃 UART1 接收缓冲区中指定数量的字节 */
+void UART1_Passthrough_Discard(uint32_t count);
+
 #endif

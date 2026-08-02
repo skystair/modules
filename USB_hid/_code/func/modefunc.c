@@ -53,8 +53,11 @@ static void modefunc_Lastfunc(void){
     len = (int)UART1_Passthrough_RxCount();
     if (len > 0) {
         if (len > (int)sizeof(uart_rx_tmp)) len = (int)sizeof(uart_rx_tmp);
-        UART1_Passthrough_Receive(uart_rx_tmp, (uint32_t)len);
-        USB_CDC_Send(uart_rx_tmp, (uint32_t)len);
+        UART1_Passthrough_Peek(uart_rx_tmp, (uint32_t)len);
+        int sent = USB_CDC_Send(uart_rx_tmp, (uint32_t)len);
+        if (sent > 0) {
+            UART1_Passthrough_Discard((uint32_t)sent);
+        }
     }
 }
 
