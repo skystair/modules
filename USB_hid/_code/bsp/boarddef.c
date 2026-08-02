@@ -27,7 +27,8 @@ unsigned char Board_REG_in[IO_INch_Max];
  */
 const BoardGpioConfig_t Board_GpioOutputs[IO_OUTch_Max] = {
     // 索引0: WIFI_RELOAD (PB13)
-    {D_PORT_A, D_PIN_(8),1},
+    {D_PORT_B, D_PIN_(5),1},
+	{D_PORT_E, D_PIN_(5),1},
 };
 
 /**
@@ -35,9 +36,11 @@ const BoardGpioConfig_t Board_GpioOutputs[IO_OUTch_Max] = {
  */
 const BoardGpioConfig_t Board_GpioInputs[IO_INch_Max] = {
     // KEY_USR (PC13)
-    {D_PORT_C, D_PIN_(13),0},
+    {D_PORT_E, D_PIN_(4),0},
     // KEY_WAKEUP (PA0)
-    {D_PORT_A, D_PIN_(0),0},
+    {D_PORT_E, D_PIN_(3),0},
+	{D_PORT_E, D_PIN_(2),0},
+	{D_PORT_A, D_PIN_(0),0},
 };
 
 /* ============================================================================

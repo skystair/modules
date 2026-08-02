@@ -1,0 +1,242 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: d Administrator, d, LIC=TIVNB-2NBP9-DYLV3-AAZKD-DSA4L-D9YC4
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.43.0.0
+Toolchain Path:  C:\keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.24
+Assembler:       Armasm.exe V6.24
+Linker/Locator:  ArmLink.exe V6.24
+Library Manager: ArmAr.exe V6.24
+Hex Converter:   FromElf.exe V6.24
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.45.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+F:\GIT\modules\USB_hid\stm32f103.uvprojx
+Project File Date:  07/31/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.24', folder: 'C:\keil\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling led.c...
+compiling modefunc.c...
+assembling irq_armv7m.S...
+compiling uart1_passthrough.c...
+compiling boarddef.c...
+compiling rtx_delay.c...
+compiling key.c...
+compiling timerx.c...
+compiling main.c...
+compiling usb_cdc.c...
+compiling task_mode.c...
+compiling GPIO_STM32F10x.c...
+compiling dlibx.c...
+compiling task_com1.c...
+compiling rtx_evflags.c...
+compiling USBD_STM32F10x.c...
+compiling rtx_lib.c...
+compiling rtx_evr.c...
+compiling rtx_kernel.c...
+compiling rtx_memory.c...
+compiling rtx_system.c...
+compiling rtx_mutex.c...
+compiling rtx_semaphore.c...
+compiling rtx_mempool.c...
+compiling RTX_Config.c...
+compiling os_systick.c...
+compiling rtx_msgqueue.c...
+compiling misc.c...
+compiling rtx_timer.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+assembling startup_stm32f10x_md.s...
+compiling stm32f10x_rcc.c...
+compiling system_stm32f10x.c...
+compiling usb_lib_ver.c...
+compiling rtx_thread.c...
+compiling usbd_debug.c...
+compiling stm32f10x_tim.c...
+compiling usbd_config.c...
+compiling usbd_lib_core_device.c...
+compiling usbd_lib_core_cdc.c...
+compiling usbd_lib_drv.c...
+compiling usbd_lib_cdc.c...
+compiling usbd_lib_core.c...
+linking...
+Program Size: Code=25288 RO-data=1324 RW-data=256 ZI-data=14832  
+FromELF: creating hex file...
+".\Objects\stm32f103.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.3.0.pack
+                ARM::CMSIS@6.3.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: Custom Version: 1.0.0
+   * Component: CORE Version: 6.2.0
+   * Component: SysTick Version: 1.0.5
+   * Component: GPIO Version: 1.0.0
+   * Component: USB Device Version: 2.3.0
+   * Component: OS Tick Version: 1.0.1
+   * Component: RTOS2 Version: 2.3.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-RTX.5.9.1.pack
+                ARM::CMSIS-RTX@5.9.1
+                Keil RTX5 RTOS implementation of CMSIS-RTOS2 API
+   * Component: Keil RTX5 Variant: Source Version: 5.9.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.MDK-Middleware.8.3.0.pack
+                Keil::MDK-Middleware@8.3.0
+                Middleware for Arm based processors
+   * Component: CORE Version: 8.0.2
+   * Component: CDC Version: 8.0.2
+   * Component: Device Version: 8.0.2
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: FSMC Version: 3.6.0
+   * Component: Framework Version: 3.6.0
+   * Component: GPIO Version: 3.6.0
+   * Component: RCC Version: 3.6.0
+   * Component: TIM Version: 3.6.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/CMSIS
+  ./RTE/Device/STM32F103C8
+  ./RTE/USB
+  ./RTE/_Target_1
+  C:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS-RTX/5.9.1/Include
+  C:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include
+  C:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Driver/Include
+  C:/Users/Administrator/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/RTOS2/Include
+  C:/Users/Administrator/AppData/Local/Arm/Packs/Keil/MDK-Middleware/8.3.0/Components/USB/Include
+  C:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+  C:/Users/Administrator/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS Driver:GPIO:Custom@1.0.0
+      Source file:   CMSIS/Driver/DriverTemplates/Driver_GPIO.c
+
+   * Component: ARM::CMSIS:CORE@6.2.0
+
+   * Component: ARM::CMSIS:OS Tick:SysTick@1.0.5
+      Source file:   CMSIS/RTOS2/Source/os_systick.c
+
+   * Component: ARM::CMSIS:RTOS2:Keil RTX5&Source@5.9.1
+      Include file:  Include/rtx_os.h
+      Source file:   Template/main.c
+      Source file:   Source/rtx_delay.c
+      Source file:   Source/rtx_evflags.c
+      Source file:   Source/rtx_msgqueue.c
+      Source file:   Source/rtx_system.c
+      Source file:   Source/rtx_evr.c
+      Source file:   Source/rtx_lib.c
+      Source file:   Template/Events.c
+      Source file:   Config/RTX_Config.c
+      Source file:   Source/rtx_memory.c
+      Source file:   Source/rtx_kernel.c
+      Include file:  Config/RTX_Config.h
+      Source file:   Template/MsgQueue.c
+      Source file:   Template/Timer.c
+      Source file:   Template/Semaphore.c
+      Source file:   Template/svc_user.c
+      Source file:   Source/rtx_thread.c
+      Source file:   Template/MemPool.c
+      Source file:   Source/rtx_timer.c
+      Source file:   Source/rtx_mutex.c
+      Source file:   Source/rtx_semaphore.c
+      Source file:   Source/rtx_mempool.c
+      Source file:   Template/Mutex.c
+      Source file:   Template/Thread.c
+      Source file:   Source/GCC/irq_armv7m.S
+
+   * Component: CMSIS Driver:GPIO(API)@1.0.0
+      Include file:  CMSIS/Driver/Include/Driver_GPIO.h
+
+   * Component: CMSIS Driver:USB Device(API)@2.3.0
+      Include file:  CMSIS/Driver/Include/Driver_USBD.h
+
+   * Component: CMSIS:OS Tick(API)@1.0.1
+      Include file:  CMSIS/RTOS2/Include/os_tick.h
+
+   * Component: CMSIS:RTOS2(API)@2.3.0
+      Include file:  CMSIS/RTOS2/Include/cmsis_os2.h
+
+   * Component: Keil::CMSIS Driver:USB Device@3.2.0
+      Include file:  Drivers/USBD_STM32.h
+      Source file:   Drivers/USBD_STM32.c
+
+   * Component: Keil::Device:Startup@1.0.0
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/system_stm32f10x.c
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+
+   * Component: Keil::Device:StdPeriph Drivers:FSMC@3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_fsmc.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_fsmc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework@3.6.0
+      Source file:   Device/StdPeriph_Driver/src/misc.c
+      Source file:   Device/StdPeriph_Driver/templates/stm32f10x_conf.h
+      Include file:  Device/StdPeriph_Driver/inc/misc.h
+      Include file:  Device/StdPeriph_Driver/templates/stm32f10x_it.h
+      Source file:   Device/StdPeriph_Driver/templates/stm32f10x_it.c
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO@3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_gpio.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_gpio.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC@3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_rcc.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_rcc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM@3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_tim.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_tim.c
+
+   * Component: Keil::USB&MDK:CORE@8.0.2
+      Source file:   Components/USB/Source/usb_lib_ver.c
+      Include file:  Components/USB/Include/rl_usb.h
+      Include file:  Components/USB/Config/USB_Debug.h
+
+   * Component: Keil::USB&MDK:Device:CDC@8.0.2
+      Source file:   Components/USB/Source/usbd_lib_core_cdc.c
+      Source file:   Components/USB/Template/USBD_User_CDC_ACM_UART.c
+      Source file:   Components/USB/Template/USBD_User_CDC_ACM_RNDIS_VETH.c
+      Source file:   Components/USB/Template/USBD_User_CDC_ACM_RNDIS_ETH.c
+      Source file:   Components/USB/Template/USBD_User_CDC_NCM_ETH.c
+      Source file:   Components/USB/Template/USBD_User_CDC_NCM.c
+      Include file:  Components/USB/Config/USBD_Config_CDC.h
+      Source file:   Components/USB/Template/USBD_User_CDC_ACM.c
+      Source file:   Components/USB/Source/usbd_lib_cdc.c
+
+   * Component: Keil::USB&MDK:Device@8.0.2
+      Include file:  Components/USB/Config/USBD_Config.h
+      Source file:   Components/USB/Source/usbd_lib_core_device.c
+      Source file:   Components/USB/Source/usbd_lib_drv.c
+      Source file:   Components/USB/Source/usbd_debug.c
+      Source file:   Components/USB/Source/usbd_lib_core.c
+      Source file:   Components/USB/Template/USBD_User_Device_SerNum.c
+      Source file:   Components/USB/Template/USBD_User_Device.c
+      Source file:   Components/USB/Source/usbd_config.c
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

@@ -2,13 +2,18 @@
 
 keyStruct keystr[IO_INch_Max];
 //定义按键读取
-unsigned char keyRead_test(void){
-    return Board_REG_in[IO_INch_KEY_USR];
+unsigned char keyRead_R(void){
+    return Board_REG_in[IO_INch_KEY_R];
 }
-unsigned char keyRead_wakeup(void){
-    return Board_REG_in[IO_INch_KEY_WAKEUP];
+unsigned char keyRead_M(void){
+    return Board_REG_in[IO_INch_KEY_M];
 }
-
+unsigned char keyRead_L(void){
+    return Board_REG_in[IO_INch_KEY_L];
+}
+unsigned char keyRead_UP(void){
+    return Board_REG_in[IO_INch_KEY_UP];
+}
 void key_init(void){
     memset(&keystr,0,sizeof(keyStruct) *IO_INch_Max);
 
@@ -16,8 +21,10 @@ void key_init(void){
         keystr[i].Sdelay = KEYshortTIM;
         keystr[i].Ldelay = KEYlongTIM;
     }
-    keystr[IO_INch_KEY_USR].pRfunc = &keyRead_test;
-    keystr[IO_INch_KEY_WAKEUP].pRfunc = &keyRead_wakeup;
+    keystr[IO_INch_KEY_R].pRfunc = &keyRead_R;
+    keystr[IO_INch_KEY_M].pRfunc = &keyRead_M;
+	keystr[IO_INch_KEY_L].pRfunc = &keyRead_L;
+	keystr[IO_INch_KEY_UP].pRfunc = &keyRead_UP;
 }
 
 unsigned int keyXvalread(unsigned char ch,unsigned char valnum){

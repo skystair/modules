@@ -26,14 +26,15 @@
 
 typedef enum {
     IO_OUTch_LED_R = 0,
-
+	IO_OUTch_LED_G,
     IO_OUTch_Max            ///< 引脚总数
 } io_out_ch_t;
-#define LEDNUM  (IO_OUTch_LED_R+1)
+#define LEDNUM  (IO_OUTch_LED_G+1)
 typedef enum {
-    IO_INch_KEY_USR = 0,
-    IO_INch_KEY_WAKEUP,
-
+    IO_INch_KEY_R = 0,
+    IO_INch_KEY_M,
+	IO_INch_KEY_L,
+	IO_INch_KEY_UP,
     IO_INch_Max            ///< 引脚总数
 } io_in_ch_t;
 

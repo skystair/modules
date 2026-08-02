@@ -15,7 +15,7 @@ static void modefunc_Prefunc(void){
 }
 
 static void modefunc_Pubfunc(void){
-//    if(keyXvalread(IO_INch_KEY_USR,KEY_VAL_FLAG)){
+//    if(keyXvalread(IO_INch_KEY_L,KEY_VAL_FLAG)){
 //        //usb send
 //    }
     if(modestr.state != modestr.statelast){
@@ -69,6 +69,7 @@ static void modefunc_reset(void){
 
 static void modefunc_idle(void){
     LEDxCtrl(IO_OUTch_LED_R,2,500);
+	LEDxCtrl(IO_OUTch_LED_G,2,1000);
 }
 
 static void modefunc_func1(void){

@@ -33,7 +33,7 @@
 ".\objects\stm32f10x_gpio.o"
 ".\objects\stm32f10x_rcc.o"
 ".\objects\stm32f10x_tim.o"
-".\objects\startup_stm32f10x_md.o"
+".\objects\startup_stm32f10x_hd.o"
 ".\objects\system_stm32f10x.o"
 ".\objects\usb_lib_ver.o"
 ".\objects\usbd_config.o"

@@ -2,8 +2,11 @@
 
 LedStruct LEDstr[LEDNUM];
 
-void LEDxTESTctrl(unsigned char flag){
+void LEDxRctrl(unsigned char flag){
     Board_REG_out[IO_OUTch_LED_R] = (flag == 0);
+}
+void LEDxGctrl(unsigned char flag){
+    Board_REG_out[IO_OUTch_LED_G] = (flag == 0);
 }
 //void LEDxRctrl(unsigned char flag){
 //    if(flag){
@@ -19,7 +22,8 @@ void LEDxinit(void){
         LEDstr[i].Flashondelay = LED_FLASH_ONDELAY;
         LEDstr[i].Flashoffdelay = LED_FLASH_OFFDELAY;
     }
-    LEDstr[IO_OUTch_LED_R].pfunc = &LEDxTESTctrl;
+    LEDstr[IO_OUTch_LED_R].pfunc = &LEDxRctrl;
+	LEDstr[IO_OUTch_LED_G].pfunc = &LEDxGctrl;
 //    LEDstr[LED_CH_R].pfunc = &LEDxRctrl;
 }
 
