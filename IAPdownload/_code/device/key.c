@@ -32,6 +32,10 @@ void key_init(void){
 unsigned int keyXvalread(unsigned char ch,unsigned char valnum){
 return  keyValread(&keystr[ch],valnum);
 }
+
+/* ==================== 按键事件锁存 (for UI 10ms refresh) ==================== */
+static unsigned char g_key_event[IO_INch_Max] = {0};
+
 //func
 void key_func(void){
     unsigned char i;
@@ -40,4 +44,23 @@ void key_func(void){
         keystr[i].u16Rtick++;
         keyShortPressCHK(&keystr[i]);
     }
+    /* 锁存按键事件: 在key_func末尾捕获flag，供UI(10ms周期)读取 */
+    for(i = 0;i< IO_INch_Max;i++){
+        if(keystr[i].flag){
+            g_key_event[i] = keystr[i].flag;
+        }
+    }
+}
+
+unsigned char key_event_read(unsigned char ch){
+    unsigned char ev;
+    if(ch >= IO_INch_Max) return 0;
+    ev = g_key_event[ch];
+    g_key_event[ch] = 0;   /* 读后清除 */
+    return ev;
+}
+
+unsigned char key_state_read(unsigned char ch){
+    if(ch >= IO_INch_Max) return 0;
+    return keystr[ch].Pressing;
 }

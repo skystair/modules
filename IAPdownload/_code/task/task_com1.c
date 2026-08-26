@@ -19,8 +19,8 @@ void task_com1(void *pvParameters){
     unsigned char flag = 0;
     
     while(1){
-        /* LCD处理 - 统一状态机，包含初始化和刷新 */
-        LCD_Func();
+        /* UI刷新 - 200ms节流，内部处理状态变化和周期刷新 */
+        ui_refresh();
         
 //        LEDxCtrl(IO_OUTch_LED_DS0,(flag!=0),0);
         osDelay(10);  /* 10ms周期 */

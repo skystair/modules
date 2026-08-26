@@ -22,6 +22,11 @@ void main_init(void){
     lcd_init();     /* LCD硬件初始化(FSMC+GPIO+ID读取) */
     /* LCD软件初始化移到task_com1中分步执行，避免阻塞 */
     
+    flash_store_init();
+    transfer_init();
+    
+    ui_init();      /* UI初始化(lcd_init和flash_store_init之后) */
+    
     modefunc_init();
     
 }

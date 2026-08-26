@@ -108,8 +108,8 @@ static const lcd_cmd_t st7789_init_cmds[] = {
     {0xE1, 14, {0xD0, 0x00, 0x02, 0x07, 0x0A,                       /* Negative Gamma */
                  0x28, 0x31, 0x54, 0x47, 0x0E,
                  0x1C, 0x17, 0x1B, 0x1E}},
-    {0x2A, 4, {0x00, 0x00, 0x00, 0xEF}},                             /* Column: 0~239 */
-    {0x2B, 4, {0x00, 0x00, 0x01, 0x3F}},                             /* Row: 0~319 */
+    {0x2A, 4, {0x00, 0x00, 0x01, 0x3F}},                             /* Column: 0~319 (320宽) */
+    {0x2B, 4, {0x00, 0x00, 0x01, 0xDF}},                             /* Row: 0~479 (480高) */
     {0x29, 0, {0}},                                                   /* Display On */
     {LCD_CMD_END, 0, {0}},
 };

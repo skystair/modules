@@ -538,7 +538,7 @@ void lcd_display_dir(uint8_t dir)
             lcddev.setycmd = 0X2B;
         }
 
-        if (lcddev.id == 0X5310 || lcddev.id == 0x7796)     /* 如果是5310/7796 则表示是 320*480分辨率 */
+        if (lcddev.id == 0X5310 || lcddev.id == 0x7796 || lcddev.id == 0x7789)     /* 5310/7796/7789 表示 320*480分辨率 */
         {
             lcddev.width = 320;
             lcddev.height = 480;
@@ -578,7 +578,7 @@ void lcd_display_dir(uint8_t dir)
             lcddev.setycmd = 0X2B;
         }
 
-        if (lcddev.id == 0X5310 || lcddev.id == 0x7796)     /* 如果是5310/7796 则表示是 320*480分辨率 */
+        if (lcddev.id == 0X5310 || lcddev.id == 0x7796 || lcddev.id == 0x7789)     /* 5310/7796/7789 表示 320*480分辨率 */
         {
             lcddev.width = 480;
             lcddev.height = 320;

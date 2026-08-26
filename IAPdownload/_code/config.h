@@ -21,6 +21,10 @@
 
 #include "usb_cdc_app.h"
 #include "uart1_passthrough.h"
+#include "xmodem.h"
+#include "flash_store.h"
+#include "transfer.h"
+#include "ui_display.h"
 
 //FUNCTION
 #include "dlibx.h"

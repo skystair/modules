@@ -38,27 +38,26 @@ static void modefunc_Pubfunc(void){
     }
 }
 
-/* USB CDC ↔ UART1 双向透传缓冲区 */
-static uint8_t cdc_rx_tmp[64];
-static uint8_t uart_rx_tmp[64];
-
 static void modefunc_Lastfunc(void){
+    static uint8_t usb_buf[64];
+    static uint8_t uart_buf[64];
     int len;
-    /* USB CDC → UART1：PC 串口助手发来的数据转发到 PA9/PA10 */
-    len = USB_CDC_Receive(cdc_rx_tmp, sizeof(cdc_rx_tmp));
+
+    /* USB CDC → transfer + UART1 */
+    len = USB_CDC_Receive(usb_buf, sizeof(usb_buf));
     if (len > 0) {
-        UART1_Passthrough_Send(cdc_rx_tmp, (uint32_t)len);
-        LCD_Display_TX_Async(cdc_rx_tmp, (uint32_t)len);   /* TX上屏(异步) */
+        transfer_process(usb_buf, (uint32_t)len);
+        UART1_Passthrough_Send(usb_buf, (uint32_t)len);
     }
-    /* UART1 → USB CDC：PA9/PA10 收到的数据转发到 PC 串口助手 */
+
+    /* UART1 → USB CDC */
     len = (int)UART1_Passthrough_RxCount();
     if (len > 0) {
-        if (len > (int)sizeof(uart_rx_tmp)) len = (int)sizeof(uart_rx_tmp);
-        UART1_Passthrough_Peek(uart_rx_tmp, (uint32_t)len);
-        int sent = USB_CDC_Send(uart_rx_tmp, (uint32_t)len);
+        if (len > (int)sizeof(uart_buf)) len = (int)sizeof(uart_buf);
+        UART1_Passthrough_Peek(uart_buf, (uint32_t)len);
+        int sent = USB_CDC_Send(uart_buf, (uint32_t)len);
         if (sent > 0) {
             UART1_Passthrough_Discard((uint32_t)sent);
-            LCD_Display_RX_Async(uart_rx_tmp, (uint32_t)sent);  /* RX上屏(异步) */
         }
     }
 }

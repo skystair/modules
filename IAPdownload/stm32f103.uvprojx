@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xE,STM32F10X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>.\_code;.\_code\sys;.\_code\bsp;.\_code\device;.\_code\device\lcd;.\_code\func;.\_code\task;.\_code\lib;.\_code\usb</IncludePath>
+              <IncludePath>.\_code;.\_code\sys;.\_code\bsp;.\_code\device;.\_code\device\lcd;.\_code\func;.\_code\task;.\_code\lib;.\_code\usb;.\_code\storage</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -429,6 +429,11 @@
               <FileType>1</FileType>
               <FilePath>.\_code\func\modefunc.c</FilePath>
             </File>
+            <File>
+              <FileName>ui_display.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\func\ui_display.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -497,6 +502,41 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>storage</GroupName>
+          <Files>
+            <File>
+              <FileName>flash_store.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\storage\flash_store.c</FilePath>
+            </File>
+            <File>
+              <FileName>flash_store.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\_code\storage\flash_store.h</FilePath>
+            </File>
+            <File>
+              <FileName>xmodem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\storage\xmodem.c</FilePath>
+            </File>
+            <File>
+              <FileName>xmodem.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\_code\storage\xmodem.h</FilePath>
+            </File>
+            <File>
+              <FileName>transfer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\storage\transfer.c</FilePath>
+            </File>
+            <File>
+              <FileName>transfer.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\_code\storage\transfer.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
         <Group>
@@ -523,7 +563,7 @@
       <api Capiversion="2.3.0" Cclass="CMSIS Driver" Cgroup="USB Device" exclusive="0">
         <package name="CMSIS" schemaVersion="1.7.53" url="https://www.keil.com/pack/" vendor="ARM" version="6.3.0"/>
         <targetInfos>
-          <targetInfo name="Target 1"/>
+          <targetInfo excluded="1" name="Target 1"/>
         </targetInfos>
       </api>
       <api Capiversion="1.0.1" Cclass="CMSIS" Cgroup="OS Tick" exclusive="1">
@@ -577,6 +617,12 @@
         </targetInfos>
       </component>
       <component Cclass="Device" Cgroup="StdPeriph Drivers" Csub="FSMC" Cvendor="Keil" Cversion="3.6.0" condition="STM32F1xx STDPERIPH RCC" ymlID="Device:StdPeriph Drivers:FSMC">
+        <package name="STM32F1xx_DFP" schemaVersion="1.7.2" url="https://www.keil.com/pack/" vendor="Keil" version="2.4.1"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </component>
+      <component Cclass="Device" Cgroup="StdPeriph Drivers" Csub="Flash" Cvendor="Keil" Cversion="3.6.0" condition="STM32F1xx STDPERIPH" ymlID="Device:StdPeriph Drivers:Flash">
         <package name="STM32F1xx_DFP" schemaVersion="1.7.2" url="https://www.keil.com/pack/" vendor="Keil" version="2.4.1"/>
         <targetInfos>
           <targetInfo name="Target 1"/>
