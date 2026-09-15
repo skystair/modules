@@ -338,9 +338,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define></Define>
+              <Define>USE_FULL_LL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\;.\_code;.\_code\bsp;.\_code\device;.\_code\func;.\_code\lib;.\_code\sys</IncludePath>
+              <IncludePath>.\;.\_code;.\_code\bsp;.\_code\device;.\_code\dev;.\_code\func;.\_code\lib;.\_code\sys;.\_code\ll_lib\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -382,147 +382,27 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
-          <Files>
-            <File>
-              <FileName>user_main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\_code\user_main.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>:CubeMX:CubeMX</GroupName>
+          <GroupName>Source</GroupName>
           <Files>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Src\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Src\gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>dma.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Src\dma.c</FilePath>
-            </File>
-            <File>
-              <FileName>tim.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Src\tim.c</FilePath>
-            </File>
-            <File>
-              <FileName>usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Src\usart.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_it.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Src\stm32f4xx_it.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_msp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Src\stm32f4xx_hal_msp.c</FilePath>
-            </File>
-            <File>
-              <FileName>startup_stm32f407xx.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\MDK-ARM\startup_stm32f407xx.s</FilePath>
+              <FilePath>.\_code\main.c</FilePath>
             </File>
             <File>
               <FileName>system_stm32f4xx.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Src\system_stm32f4xx.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>:CubeMX:STM32 HAL Driver</GroupName>
-          <Files>
-            <File>
-              <FileName>stm32f4xx_hal_tim.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c</FilePath>
+              <FilePath>.\_code\sys\system_stm32f4xx.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f4xx_hal_tim_ex.c</FileName>
+              <FileName>stm32f4xx_it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c</FilePath>
+              <FilePath>.\_code\sys\stm32f4xx_it.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f4xx_hal_rcc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_rcc_ex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_flash_ex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_flash_ramfunc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_dma_ex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_dma.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_pwr.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_pwr_ex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_cortex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_exti.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\STM32CubeMX\Target_1\STM32CubeMX\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c</FilePath>
+              <FileName>startup_stm32f407xx.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\_code\sys\startup_stm32f407xx.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -530,9 +410,29 @@
           <GroupName>RTOS</GroupName>
           <Files>
             <File>
-              <FileName>task_drive.c</FileName>
+              <FileName>bldc_func.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\_code\func\task_drive.c</FilePath>
+              <FilePath>.\_code\func\bldc_func.c</FilePath>
+            </File>
+            <File>
+              <FileName>bldc_hall.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\func\bldc_hall.c</FilePath>
+            </File>
+            <File>
+              <FileName>bldc_drive_6step.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\func\bldc_drive_6step.c</FilePath>
+            </File>
+            <File>
+              <FileName>keyx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\dev\keyx.c</FilePath>
+            </File>
+            <File>
+              <FileName>dlibx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\lib\dlibx.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -552,37 +452,52 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>LL_Driver</GroupName>
+          <Files>
+            <File>
+              <FileName>stm32f4xx_ll_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\ll_lib\Src\stm32f4xx_ll_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_ll_rcc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\ll_lib\Src\stm32f4xx_ll_rcc.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_ll_utils.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\ll_lib\Src\stm32f4xx_ll_utils.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_ll_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\ll_lib\Src\stm32f4xx_ll_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_ll_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\ll_lib\Src\stm32f4xx_ll_tim.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_ll_pwr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\_code\ll_lib\Src\stm32f4xx_ll_pwr.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>device_bldc</GroupName>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
-        </Group>
-        <Group>
-          <GroupName>::Device</GroupName>
-        </Group>
-        <Group>
-          <GroupName>::RTOS</GroupName>
         </Group>
       </Groups>
     </Target>
   </Targets>
 
   <RTE>
-    <gpdscs>
-      <gpdsc generator="CubeMX" name="STM32CubeMX/Target_1/stm32f407IG_demo.cgen.yml">
-        <targetInfos>
-          <targetInfo name="Target_1"/>
-        </targetInfos>
-      </gpdsc>
-    </gpdscs>
-    <apis>
-      <api Capiversion="1.0.1" Cclass="CMSIS" Cgroup="OS Tick" exclusive="1">
-        <package name="CMSIS" schemaVersion="1.7.53" url="https://www.keil.com/pack/" vendor="ARM" version="6.3.0"/>
-        <targetInfos>
-          <targetInfo name="Target_1"/>
-        </targetInfos>
-      </api>
-    </apis>
+    <apis/>
     <components>
       <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="6.2.0" condition="ARMv6_7_8-M Device" ymlID="CMSIS:CORE">
         <package name="CMSIS" schemaVersion="1.7.53" url="https://www.keil.com/pack/" vendor="ARM" version="6.3.0"/>
@@ -590,57 +505,13 @@
           <targetInfo name="Target_1"/>
         </targetInfos>
       </component>
-      <component Capiversion="1.0.1" Cclass="CMSIS" Cgroup="OS Tick" Csub="SysTick" Cvendor="ARM" Cversion="1.0.5" condition="OS Tick SysTick" ymlID="CMSIS:OS Tick:SysTick">
-        <package name="CMSIS" schemaVersion="1.7.53" url="https://www.keil.com/pack/" vendor="ARM" version="6.3.0"/>
-        <targetInfos>
-          <targetInfo name="Target_1"/>
-        </targetInfos>
-      </component>
-      <component Cbundle="FreeRTOS" Cclass="RTOS" Cgroup="Config" Cvariant="FreeRTOS" Cvendor="ARM" Cversion="11.2.0" condition="FreeRTOS Config Native" ymlID="RTOS&amp;FreeRTOS:Config&amp;FreeRTOS">
-        <package name="CMSIS-FreeRTOS" schemaVersion="1.7.40" url="https://www.keil.com/pack/" vendor="ARM" version="11.2.0"/>
-        <targetInfos>
-          <targetInfo name="Target_1"/>
-        </targetInfos>
-      </component>
-      <component Cbundle="FreeRTOS" Cclass="RTOS" Cgroup="Core" Cvariant="Cortex-M" Cvendor="ARM" Cversion="11.2.0" condition="FreeRTOS Core CM" ymlID="RTOS&amp;FreeRTOS:Core&amp;Cortex-M">
-        <package name="CMSIS-FreeRTOS" schemaVersion="1.7.40" url="https://www.keil.com/pack/" vendor="ARM" version="11.2.0"/>
-        <targetInfos>
-          <targetInfo name="Target_1"/>
-        </targetInfos>
-      </component>
-      <component Cbundle="FreeRTOS" Cclass="RTOS" Cgroup="Event Groups" Cvendor="ARM" Cversion="11.2.0" condition="FreeRTOS Event Groups" ymlID="RTOS&amp;FreeRTOS:Event Groups">
-        <package name="CMSIS-FreeRTOS" schemaVersion="1.7.40" url="https://www.keil.com/pack/" vendor="ARM" version="11.2.0"/>
-        <targetInfos>
-          <targetInfo name="Target_1"/>
-        </targetInfos>
-      </component>
-      <component Cbundle="FreeRTOS" Cclass="RTOS" Cgroup="Heap" Cvariant="Heap_4" Cvendor="ARM" Cversion="11.2.0" condition="FreeRTOS Heap" ymlID="RTOS&amp;FreeRTOS:Heap&amp;Heap_4">
-        <package name="CMSIS-FreeRTOS" schemaVersion="1.7.40" url="https://www.keil.com/pack/" vendor="ARM" version="11.2.0"/>
-        <targetInfos>
-          <targetInfo name="Target_1"/>
-        </targetInfos>
-      </component>
-      <component Cbundle="FreeRTOS" Cclass="RTOS" Cgroup="Timers" Cvendor="ARM" Cversion="11.2.0" condition="FreeRTOS Timers" ymlID="RTOS&amp;FreeRTOS:Timers">
-        <package name="CMSIS-FreeRTOS" schemaVersion="1.7.40" url="https://www.keil.com/pack/" vendor="ARM" version="11.2.0"/>
-        <targetInfos>
-          <targetInfo name="Target_1"/>
-        </targetInfos>
-      </component>
-      <component Cclass="Device" Cgroup="CubeMX" Cvendor="Keil" Cversion="1.0.0" condition="STM32F4 CMSIS" generator="CubeMX" ymlID="Device:CubeMX">
-        <package name="STM32F4xx_DFP" schemaVersion="1.7.36" url="https://www.keil.com/pack/" vendor="Keil" version="3.0.0"/>
-        <targetInfos>
-          <targetInfo name="Target_1"/>
-        </targetInfos>
-      </component>
     </components>
     <files>
       <file attr="config" category="header" name="Source\examples\template_configuration\FreeRTOSConfig.h" version="11.2.0">
-        <instance index="0">RTE\RTOS\FreeRTOSConfig.h</instance>
-        <component Cbundle="FreeRTOS" Cclass="RTOS" Cgroup="Config" Cvariant="FreeRTOS" Cvendor="ARM" Cversion="11.2.0" condition="FreeRTOS Config Native"/>
-        <package name="CMSIS-FreeRTOS" schemaVersion="1.7.40" url="https://www.keil.com/pack/" vendor="ARM" version="11.2.0"/>
-        <targetInfos>
-          <targetInfo name="Target_1"/>
-        </targetInfos>
+        <instance index="0" removed="1">RTE\RTOS\FreeRTOSConfig.h</instance>
+        <component Cbundle="FreeRTOS" Cclass="RTOS" Cgroup="Config" Cvariant="FreeRTOS" Cvendor="ARM" Cversion="11.3.0" condition="FreeRTOS Config Native"/>
+        <package name="CMSIS-FreeRTOS" schemaVersion="1.7.54" url="https://www.keil.com/pack/" vendor="ARM" version="11.3.0"/>
+        <targetInfos/>
       </file>
     </files>
   </RTE>

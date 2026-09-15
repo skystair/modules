@@ -35,25 +35,7 @@ typedef void(*pfunc) (void);
 typedef unsigned char(*u8pfunc)(void);
 //
 
-//userdefine**********************************************
-//1.key--------------------------------
-
-
-//2.adc--------------------------------
-//#define ADCNUM              2
-//#define ADC_2ndTimes        3   //2^3
-
-//#define AD_chgV     sADCx_data[0].avg
-//#define AD_key      sADCx_data[1].avg
-
-////3.led--------------------------------
-//#define LEDNUM              2
-//#define LED_FLASH_ONDELAY   500
-//#define LED_FLASH_OFFDELAY  500
-
-//#define LED_CH_W            0   //
-//#define LED_CH_R            1   //
-////end of userdefine**********************************************
 
 #endif
 
+ 
